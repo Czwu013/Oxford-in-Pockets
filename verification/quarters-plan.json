@@ -1,0 +1,373 @@
+{
+  "districts": {
+    "market": {
+      "hectares": 3.56,
+      "core": 4,
+      "additional": 76,
+      "totalDistinctOutlines": 80,
+      "worstPlanDeviationMetres": 0.154,
+      "minAreaFractionInOwnPocket": 0.9922,
+      "mappedTrees": 1,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 17
+    },
+    "radcliffe": {
+      "hectares": 5.04,
+      "core": 4,
+      "additional": 104,
+      "totalDistinctOutlines": 108,
+      "worstPlanDeviationMetres": 0.158,
+      "minAreaFractionInOwnPocket": 0.9949,
+      "mappedTrees": 8,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 10
+    },
+    "museum": {
+      "hectares": 5.02,
+      "core": 1,
+      "additional": 32,
+      "totalDistinctOutlines": 33,
+      "worstPlanDeviationMetres": 0.157,
+      "minAreaFractionInOwnPocket": 0.9997,
+      "mappedTrees": 3,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 21
+    },
+    "christ": {
+      "hectares": 5.66,
+      "core": 16,
+      "additional": 23,
+      "totalDistinctOutlines": 39,
+      "worstPlanDeviationMetres": 0.133,
+      "minAreaFractionInOwnPocket": 0.9992,
+      "mappedTrees": 8,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 6
+    },
+    "castle": {
+      "hectares": 4.23,
+      "core": 6,
+      "additional": 33,
+      "totalDistinctOutlines": 39,
+      "worstPlanDeviationMetres": 0.124,
+      "minAreaFractionInOwnPocket": 0.9973,
+      "mappedTrees": 14,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 13
+    },
+    "ashmolean": {
+      "hectares": 4.12,
+      "core": 0,
+      "additional": 37,
+      "totalDistinctOutlines": 37,
+      "worstPlanDeviationMetres": 0.158,
+      "minAreaFractionInOwnPocket": 1.0,
+      "mappedTrees": 4,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 14
+    },
+    "carfax": {
+      "hectares": 5.32,
+      "core": 0,
+      "additional": 103,
+      "totalDistinctOutlines": 103,
+      "worstPlanDeviationMetres": 0.152,
+      "minAreaFractionInOwnPocket": 0.9942,
+      "mappedTrees": 4,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 14
+    },
+    "newcollege": {
+      "hectares": 4.17,
+      "core": 0,
+      "additional": 37,
+      "totalDistinctOutlines": 37,
+      "worstPlanDeviationMetres": 0.16,
+      "minAreaFractionInOwnPocket": 0.9968,
+      "mappedTrees": 16,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 4
+    },
+    "merton": {
+      "hectares": 3.15,
+      "core": 0,
+      "additional": 56,
+      "totalDistinctOutlines": 56,
+      "worstPlanDeviationMetres": 0.162,
+      "minAreaFractionInOwnPocket": 0.9653,
+      "mappedTrees": 46,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 14
+    },
+    "balliol": {
+      "hectares": 1.82,
+      "core": 0,
+      "additional": 48,
+      "totalDistinctOutlines": 48,
+      "worstPlanDeviationMetres": 0.161,
+      "minAreaFractionInOwnPocket": 0.9901,
+      "mappedTrees": 0,
+      "illustratedTrees": 10,
+      "mappedStreetFurniture": 8
+    },
+    "trinity": {
+      "hectares": 3.32,
+      "core": 0,
+      "additional": 29,
+      "totalDistinctOutlines": 29,
+      "worstPlanDeviationMetres": 0.154,
+      "minAreaFractionInOwnPocket": 0.9995,
+      "mappedTrees": 0,
+      "illustratedTrees": 22,
+      "mappedStreetFurniture": 11
+    },
+    "queens": {
+      "hectares": 2.39,
+      "core": 0,
+      "additional": 32,
+      "totalDistinctOutlines": 32,
+      "worstPlanDeviationMetres": 0.161,
+      "minAreaFractionInOwnPocket": 0.9979,
+      "mappedTrees": 1,
+      "illustratedTrees": 7,
+      "mappedStreetFurniture": 4
+    },
+    "univ": {
+      "hectares": 2.33,
+      "core": 0,
+      "additional": 52,
+      "totalDistinctOutlines": 52,
+      "worstPlanDeviationMetres": 0.148,
+      "minAreaFractionInOwnPocket": 0.9949,
+      "mappedTrees": 18,
+      "illustratedTrees": 0,
+      "mappedStreetFurniture": 9
+    }
+  },
+  "originalMagdalenOutlines": 40,
+  "restoredMagdalenOutlines": [
+    "w38255376",
+    "w38255377",
+    "w77881303",
+    "w77881309",
+    "w77881421",
+    "w77881425",
+    "w100355568",
+    "w100355569",
+    "w100355573",
+    "w100355580",
+    "w112185735",
+    "w112185736",
+    "w227347432",
+    "w228387550",
+    "w297560118",
+    "w297913636",
+    "w297913642",
+    "w297913643",
+    "w297913650",
+    "w297913652",
+    "w297913654",
+    "w993452213",
+    "r12631157",
+    "r12631159",
+    "r12631160",
+    "r12631161",
+    "r12631162",
+    "r12631179"
+  ],
+  "newDistrictOutlines": 84,
+  "previousCivicDistrictOutlines": 140,
+  "newBuildingVolumes": {
+    "r1337584": {
+      "relativePlanAreaDifference": 0.00093,
+      "parts": [
+        "portico",
+        "west",
+        "annex",
+        "gallery",
+        "rear"
+      ]
+    },
+    "w134120759": {
+      "relativePlanAreaDifference": 6e-06,
+      "parts": [
+        "wing",
+        "rear"
+      ]
+    },
+    "r12885061": {
+      "relativePlanAreaDifference": 7.3e-05,
+      "parts": [
+        "front",
+        "assembly",
+        "main",
+        "rear"
+      ]
+    },
+    "w23762392": {
+      "relativePlanAreaDifference": 0.00064,
+      "parts": [
+        "ante",
+        "choir",
+        "rear"
+      ]
+    },
+    "w39606739": {
+      "relativePlanAreaDifference": 0.001377,
+      "parts": [
+        "crossing",
+        "north",
+        "south",
+        "choir",
+        "rear"
+      ]
+    },
+    "w991996414": {
+      "relativePlanAreaDifference": 0.000204,
+      "parts": [
+        "treasury",
+        "rear"
+      ]
+    },
+    "w23184300": {
+      "relativePlanAreaDifference": 0.000808,
+      "parts": [
+        "west",
+        "south",
+        "rear"
+      ]
+    },
+    "w23184387": {
+      "relativePlanAreaDifference": 0.000114,
+      "parts": [
+        "north",
+        "west",
+        "rear"
+      ]
+    },
+    "w27151764": {
+      "relativePlanAreaDifference": 0.0,
+      "parts": [
+        "west",
+        "east",
+        "gate",
+        "rear"
+      ]
+    },
+    "w27151079": {
+      "relativePlanAreaDifference": 0.000173,
+      "parts": [
+        "north",
+        "south",
+        "rear"
+      ]
+    },
+    "w62091706": {
+      "relativePlanAreaDifference": 8.8e-05,
+      "parts": [
+        "tower",
+        "chancel",
+        "porch",
+        "rear"
+      ]
+    },
+    "w60860891": {
+      "relativePlanAreaDifference": 9e-06,
+      "parts": [
+        "front",
+        "northSchool",
+        "southSchool",
+        "rear"
+      ]
+    }
+  },
+  "memorialOsmNode": "n16252895",
+  "additionalMappedOutlines": 662,
+  "wholeBuildingOwnershipAcrossPockets": true,
+  "neutralControlIds": [
+    "w1302704363",
+    "w65237631"
+  ],
+  "castleStreamAtTableEdgeMetres": 12.25,
+  "boundaryOverlapSquareMetres": {
+    "market/radcliffe": 0.041,
+    "market/museum": 0.0,
+    "market/christ": 0.0,
+    "market/castle": 0.0,
+    "market/ashmolean": 0.0,
+    "market/carfax": 2.043,
+    "market/newcollege": 0.0,
+    "market/merton": 0.0,
+    "market/balliol": 0.0,
+    "market/trinity": 0.0,
+    "market/queens": 0.0,
+    "market/univ": 0.0,
+    "radcliffe/museum": 0.0,
+    "radcliffe/christ": 0.0,
+    "radcliffe/castle": 0.0,
+    "radcliffe/ashmolean": 0.0,
+    "radcliffe/carfax": 0.0,
+    "radcliffe/newcollege": 0.026,
+    "radcliffe/merton": 0.0,
+    "radcliffe/balliol": 0.0,
+    "radcliffe/trinity": 0.003,
+    "radcliffe/queens": 0.033,
+    "radcliffe/univ": 0.0,
+    "museum/christ": 0.0,
+    "museum/castle": 0.0,
+    "museum/ashmolean": 0.0,
+    "museum/carfax": 0.0,
+    "museum/newcollege": 0.0,
+    "museum/merton": 0.0,
+    "museum/balliol": 0.0,
+    "museum/trinity": 0.0,
+    "museum/queens": 0.0,
+    "museum/univ": 0.0,
+    "christ/castle": 0.0,
+    "christ/ashmolean": 0.0,
+    "christ/carfax": 0.0,
+    "christ/newcollege": 0.0,
+    "christ/merton": 0.0,
+    "christ/balliol": 0.0,
+    "christ/trinity": 0.0,
+    "christ/queens": 0.0,
+    "christ/univ": 0.0,
+    "castle/ashmolean": 0.0,
+    "castle/carfax": 0.0,
+    "castle/newcollege": 0.0,
+    "castle/merton": 0.0,
+    "castle/balliol": 0.0,
+    "castle/trinity": 0.0,
+    "castle/queens": 0.0,
+    "castle/univ": 0.0,
+    "ashmolean/carfax": 0.0,
+    "ashmolean/newcollege": 0.0,
+    "ashmolean/merton": 0.0,
+    "ashmolean/balliol": 0.312,
+    "ashmolean/trinity": 0.0,
+    "ashmolean/queens": 0.0,
+    "ashmolean/univ": 0.0,
+    "carfax/newcollege": 0.0,
+    "carfax/merton": 0.0,
+    "carfax/balliol": 0.0,
+    "carfax/trinity": 0.0,
+    "carfax/queens": 0.0,
+    "carfax/univ": 0.0,
+    "newcollege/merton": 0.0,
+    "newcollege/balliol": 0.0,
+    "newcollege/trinity": 0.0,
+    "newcollege/queens": 0.047,
+    "newcollege/univ": 0.0,
+    "merton/balliol": 0.0,
+    "merton/trinity": 0.0,
+    "merton/queens": 0.0,
+    "merton/univ": 0.027,
+    "balliol/trinity": 0.122,
+    "balliol/queens": 0.0,
+    "balliol/univ": 0.0,
+    "trinity/queens": 0.0,
+    "trinity/univ": 0.0,
+    "queens/univ": 1.124
+  },
+  "geometryReference": "bundled OpenStreetMap extract"
+}

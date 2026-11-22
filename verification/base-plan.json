@@ -1,0 +1,35 @@
+{
+  "originWgs84": [
+    -1.24645,
+    51.7519
+  ],
+  "extentMetres": [
+    -1340.0,
+    -920.0,
+    325.0,
+    430.0
+  ],
+  "buildingFootprintsOutsideMagdalen": 2055,
+  "roadSections": 2354,
+  "centreAlignmentErrorsMetres": {
+    "Radcliffe Camera": 0.007,
+    "Tom Tower": 0.035,
+    "Mercury Fountain": 0.005
+  },
+  "marketAvenues": 4,
+  "aboveGroundOnly": true,
+  "tomWingClearanceMetres": 5.11,
+  "catteClearanceFromUniversityChurchMetres": 2.49,
+  "maximumBoundaryDeviationFromBundledOsmMetres": {
+    "museum": 0.052,
+    "castleTower": 0.006,
+    "dWing": 0.006,
+    "debtors": 0.007,
+    "oldPrison": 0.124
+  },
+  "castleWalkClearanceMetres": 3.63,
+  "museumWestFrontMetres": 59.18,
+  "museumGlazedCourtAreaSqMetres": 1123.59,
+  "distinctTomQuadStairRuns": 10,
+  "castleTowerHeightTagMetres": 24.4
+}

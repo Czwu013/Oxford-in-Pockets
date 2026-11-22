@@ -1,0 +1,33 @@
+{
+  "htmlSha256": "5fac4431a83040f4221224f58f48f10f184cd35a546fa908a0b4747d48b3c284",
+  "previousEditionSha256": {
+    "口袋牛津·十二处街区版.html": "ff8a6f5bd0cc8bf9d3b531a43c522faae674f6e0ffe3cf45a6153cbc7acd9c14",
+    "口袋牛津·十二处街区版源码.zip": "897914fad006d3dd759c1d2c92019a9b8f0d1efcdcab53902018787b209b42f5"
+  },
+  "unchangedGeographyFiles": [
+    "src/data/city.json",
+    "geo/central-oxford.osm.gz",
+    "src/magdalen/data/buildings.json",
+    "src/magdalen/data/site.json"
+  ],
+  "unchangedEarlierQuarterRecords": [
+    "ashmolean",
+    "balliol",
+    "carfax",
+    "castle",
+    "christ",
+    "market",
+    "merton",
+    "museum",
+    "newcollege",
+    "radcliffe",
+    "trinity"
+  ],
+  "addedQuarters": [
+    "queens",
+    "univ"
+  ],
+  "captureSourceHtmlSha256": "2b1c40d5e9588dc8e58eb7bd4ef5e93e614d5c71d50d199c329b6edfc10444b7",
+  "sceneBundleSha256": "ddbd7805e2502c42e8ef816e87a0c4f792b813f8185bc07f56ea73c9accfcae9",
+  "githubEditionChanges": "Public source credits, repository entry points and packaging. The scene bundle and the six runtime meshes match the local fourteen-neighbourhood release."
+}
