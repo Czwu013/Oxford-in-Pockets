@@ -1,0 +1,163 @@
+{
+  "origin": [
+    -1.24645,
+    51.7519
+  ],
+  "metreExtents": [
+    327.0,
+    353.0
+  ],
+  "buildings": 40,
+  "trees": 120,
+  "osmTreePositions": 6,
+  "registration": "four inner corners of Cloister, limited independent comparison to drawn plan",
+  "metresPerPDFPixel": 0.2456,
+  "controls": [
+    {
+      "name": "Great Tower",
+      "role": "great-tower",
+      "pdfPixel": [
+        883,
+        744
+      ],
+      "planMetres": [
+        -25.74,
+        19.61
+      ],
+      "osmMetres": [
+        -28.09,
+        19.92
+      ],
+      "differenceMetres": 2.37
+    },
+    {
+      "name": "Founder’s Tower",
+      "role": "founders-tower",
+      "pdfPixel": [
+        788,
+        533
+      ],
+      "planMetres": [
+        -23.1,
+        -37.17
+      ],
+      "osmMetres": [
+        -23.93,
+        -36.98
+      ],
+      "differenceMetres": 0.85
+    },
+    {
+      "name": "Muniment Tower",
+      "role": "muniment-tower",
+      "pdfPixel": [
+        765,
+        585
+      ],
+      "planMetres": [
+        -33.92,
+        -28.34
+      ],
+      "osmMetres": [
+        -32.79,
+        -27.79
+      ],
+      "differenceMetres": 1.26
+    },
+    {
+      "name": "New Building",
+      "role": "new-building",
+      "pdfPixel": [
+        867,
+        114
+      ],
+      "planMetres": [
+        40.77,
+        -120.18
+      ],
+      "osmMetres": [
+        41.46,
+        -122.26
+      ],
+      "differenceMetres": 2.19
+    },
+    {
+      "name": "Chapel",
+      "role": "chapel",
+      "pdfPixel": [
+        808,
+        646
+      ],
+      "planMetres": [
+        -31.28,
+        -10.2
+      ],
+      "osmMetres": [
+        -30.29,
+        -9.24
+      ],
+      "differenceMetres": 1.38
+    },
+    {
+      "name": "Hall",
+      "role": "hall",
+      "pdfPixel": [
+        934,
+        649
+      ],
+      "planMetres": [
+        -4.01,
+        4.47
+      ],
+      "osmMetres": [
+        0.66,
+        6.2
+      ],
+      "differenceMetres": 4.98
+    },
+    {
+      "name": "Porters’ Lodge",
+      "role": "porters-lodge",
+      "pdfPixel": [
+        710,
+        704
+      ],
+      "planMetres": [
+        -59.19,
+        -8.38
+      ],
+      "osmMetres": [
+        -61.01,
+        -7.45
+      ],
+      "differenceMetres": 2.04
+    },
+    {
+      "name": "Footbridge to Addison’s Walk",
+      "role": "footbridge",
+      "pdfPixel": [
+        1093,
+        345
+      ],
+      "planMetres": [
+        64.61,
+        -44.46
+      ],
+      "osmMetres": [
+        65.62,
+        -45.19
+      ],
+      "differenceMetres": 1.25
+    }
+  ],
+  "maxControlResidualMetres": 4.98,
+  "greatToFounderMetres": 57.1,
+  "mappedBridgeAxisMetres": 135.67,
+  "wetOpenings": 6,
+  "hullSamples": 1735,
+  "underBridgeSamples": 128,
+  "bankClearanceMetres": 1.259,
+  "pierClearanceMetres": 2.782,
+  "hullBankCrossings": 0,
+  "hullPierCrossings": 0
+}

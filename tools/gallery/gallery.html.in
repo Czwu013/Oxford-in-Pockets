@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f5ed">
+<title>Magdalen College through the seasons | Oxford in Pockets</title>
+<style>
+*{box-sizing:border-box}
+:root{color-scheme:light;--paper:#f7f5ed;--image:#efede1;--ink:#253f34;--soft:#526358;--line:#c9ccbb;--accent:#845737;--serif:Georgia,"Times New Roman",serif;--sans:"Segoe UI",Arial,sans-serif}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 var(--sans)}
+h1,h2,h3,p,figure,figcaption{margin:0}
+a{color:var(--ink);text-decoration-color:#95a28f;text-underline-offset:3px}
+a:hover{text-decoration-color:currentColor}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid #995e27;outline-offset:3px}
+.wrap{width:min(1312px,calc(100% - 96px));margin-inline:auto}
+.mast{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:68px;border-bottom:1px solid var(--line)}
+.brand{font:23px/1 var(--serif);letter-spacing:.015em}.mast a,.print-link{font-size:14px}
+.intro{padding:clamp(32px,4.4vw,64px) 0 26px}
+h1{font:normal clamp(40px,5.25vw,76px)/1.06 var(--serif);letter-spacing:-.045em}
+h1 em{font-weight:400;color:#536b54}
+.intro p,.lead{max-width:76ch;color:var(--soft)}
+.intro p{margin-top:14px;font-size:clamp(16px,1.2vw,18px)}
+nav{display:flex;gap:13px 29px;flex-wrap:wrap;padding:0 0 19px;font-size:14px}
+nav a{text-decoration:none;border-bottom:1px solid #a9b4a4;padding:1px 0}
+main>section{border-top:1px solid var(--line);padding:clamp(26px,3vw,44px) 0 clamp(35px,4.2vw,60px);scroll-margin-top:12px}
+h2{font:normal clamp(29px,3.1vw,46px)/1.13 var(--serif);letter-spacing:-.035em}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px 22px;flex-wrap:wrap}
+.lead{margin:8px 0 19px}
+.grid{display:grid;gap:26px 24px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.zoom{display:block;text-align:inherit;width:100%;padding:0;margin:0;border:1px solid #d5d6c8;background:var(--image);border-radius:2px;overflow:hidden;cursor:zoom-in}
+.zoom img{display:block;width:100%;height:auto}
+.zoom:hover{border-color:#939f8b}
+figcaption{padding-top:8px;color:var(--soft);font-size:14px;line-height:1.45}
+figcaption strong{display:block;color:var(--ink);font:normal 23px/1.25 var(--serif);letter-spacing:-.02em;margin-bottom:3px}
+.seasons figcaption{display:flex;flex-wrap:wrap;align-items:baseline;gap:1px 13px}
+.seasons figcaption strong{font-size:26px}
+.conditions{margin-top:31px}.conditions h3{margin:0 0 5px}
+h3{font:normal 25px/1.22 var(--serif);letter-spacing:-.02em}
+.condition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}
+.plan-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(320px,.87fr);gap:clamp(26px,5vw,75px);align-items:center;margin-top:21px}
+.plan-details{max-width:545px}.plan-details p,.text p{color:var(--soft);margin:.7em 0}
+table{width:100%;border-collapse:collapse;margin:16px 0 10px;font-size:15px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 0;border-bottom:1px solid var(--line)}
+thead th{font-size:13px;color:var(--soft);font-weight:600}
+th.num,td.num{width:2.8em;color:#526d56}th:last-child,td:last-child{text-align:right;white-space:nowrap}
+.small{font-size:13px;color:var(--soft)}
+.event-layout{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(245px,.85fr);gap:clamp(26px,4vw,57px);align-items:center;margin-top:21px}
+.event-layout figure,.phone-layout figure{min-width:0}.event-layout .text{max-width:40ch}
+.phone-layout{display:grid;grid-template-columns:minmax(160px,255px) minmax(240px,500px);gap:clamp(28px,5.7vw,86px);align-items:center;margin-top:26px}
+.phone-layout figcaption strong{font-size:20px}
+details{margin-top:30px;padding:13px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+summary{color:var(--ink);cursor:pointer;font-size:15px;font-weight:600}
+details p{max-width:90ch;color:var(--soft);margin:10px 0 2px}
+footer{padding:20px 0 36px;display:flex;align-items:baseline;justify-content:space-between;gap:8px 22px;flex-wrap:wrap;border-top:1px solid var(--line);font-size:13px;color:var(--soft)}
+body:has(dialog[open]){overflow:hidden}
+dialog{width:min(2400px,96vw);max-width:96vw;max-height:95vh;max-height:95dvh;padding:0;border:1px solid #b6bcaa;background:var(--paper);color:var(--ink);overflow:auto}
+dialog::backdrop{background:rgba(21,31,25,.85)}
+.dialog-top{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 16px}
+.dialog-top h2{font:normal clamp(18px,2.2vw,26px)/1.15 var(--serif);letter-spacing:-.02em}
+.dialog-actions{display:flex;gap:5px;align-items:center}.dialog-actions button{border:1px solid var(--line);border-radius:3px;min-width:40px;min-height:40px;background:transparent;cursor:pointer;padding:0 10px}
+.dialog-actions button:hover{background:#e7ebdf}
+.large-frame{background:var(--image);display:flex;align-items:center;justify-content:center}
+.large-frame img{display:block;max-width:100%;max-height:calc(92vh - 123px);max-height:calc(92dvh - 123px);object-fit:contain}
+#dialog-caption{padding:9px 16px 12px;font-size:14px;color:var(--soft)}
+@media(max-width:900px){.wrap{width:calc(100% - 52px)}.grid.three{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three>figure:last-child:nth-child(odd){grid-column:1/-1;max-width:calc(50% - 12px)}.plan-layout{gap:25px;grid-template-columns:minmax(0,1fr) minmax(275px,.9fr)}}
+@media(max-width:680px){.wrap{width:calc(100% - 34px)}.mast{min-height:54px;gap:10px}.brand{font-size:20px}.mast a{font-size:13px}.intro{padding:30px 0 19px}h1{max-width:13em}.intro p{margin-top:13px}nav{gap:7px 17px;padding-bottom:16px}.grid,.grid.three,.condition-grid,.plan-layout,.event-layout{grid-template-columns:minmax(0,1fr)}.grid.three>figure:last-child:nth-child(odd){grid-column:auto;max-width:none}.grid,.condition-grid{gap:22px}.grid.three,.event-layout{gap:24px}.seasons figcaption strong{font-size:23px}.plan-details,.event-layout .text{max-width:none}.phone-layout{grid-template-columns:minmax(0,155px) minmax(0,1fr);gap:16px}.phone-layout .text p{font-size:14px}.phone-layout h3{font-size:21px}.dialog-top{padding:5px 7px;gap:4px}.dialog-actions{gap:3px}.dialog-actions button{min-width:35px;padding:0 6px}.dialog-top h2{font-size:18px}footer{display:block}footer p+p{margin-top:5px}}
+@media(max-width:380px){.phone-layout{grid-template-columns:minmax(0,1fr)}.phone-layout figure{max-width:185px}}
+@media print{nav,.print-link,.mast a,dialog{display:none}body{background:white}main>section{padding:22px 0}figure,.plan-details{break-inside:avoid}.wrap{width:95%}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="mast"><span class="brand">Oxford in Pockets</span><a href="./index.html">Open the 3D map &#8599;</a></div>
+  <div class="intro"><h1>Magdalen College <em>through the seasons</em></h1>
+    <p>From the bridge over the Cherwell to the shade of the Cloister, a year in one small corner of Oxford.</p>
+  </div>
+  <nav aria-label="In this gallery"><a href="#seasons">Four seasons</a><a href="#viewpoints">Viewpoints</a><a href="#plan">Site plan</a><a href="#may">May Morning</a></nav>
+</header>
+<main class="wrap">
+  <section id="seasons" aria-labelledby="season-title">
+    <div class="section-head"><h2 id="season-title">A year from the bridge</h2><a class="print-link" href="{{PRINT_URL}}" download="Magdalen College - Four Seasons.jpg">Download the four-season print &#8595;</a></div>
+    <p class="lead">The same camera looks towards the Great Tower at {{HOUR}} local solar time in every season. The weather is clear in all four views. Select any picture to enlarge it.</p>
+    <div class="grid seasons">{{SEASONS}}</div>
+  </section>
+  <section id="viewpoints" aria-labelledby="view-title">
+    <h2 id="view-title">Along the Cherwell and into the Cloister</h2>
+    <p class="lead">Follow High Street across the bridge, step into the quadrangle, then find the footbridge to Addison’s Walk.</p>
+    <div class="grid">{{VIEWS}}</div>
+    <div class="conditions"><h3>Winter light</h3><p class="lead">Back at the four-season camera, switch on the snowfall or wait for the windows to light up.</p>
+    <div class="condition-grid">{{CONDITIONS}}</div></div>
+  </section>
+  <section id="plan" aria-labelledby="plan-title">
+    <h2 id="plan-title">The college in plan</h2>
+    <p class="lead">The model spans {{EXTENT}} metres and includes {{BUILDINGS}} mapped building footprints. The Great Tower by High Street and Founder’s Tower at the Cloister stand {{DISTANCE}} metres apart, measured between their mapped centres.</p>
+    <div class="plan-layout">{{PLANFIG}}<div class="plan-details"><h3>Eight landmarks on two maps</h3>
+      <p>Four inner corners of the Cloister align the college’s 2021 visitor plan with OpenStreetMap. The table gives the distance between the two positions at eight other landmarks.</p>
+      <table><thead><tr><th scope="col" class="num">Pin</th><th scope="col">Landmark</th><th scope="col">Offset</th></tr></thead><tbody>{{ROWS}}</tbody></table>
+      <p class="small">The visitor plan simplifies some shapes. Choosing the centres by hand also affects the offsets. Heights, roof details and planting include visual estimates.</p>
+      <p class="small"><a href="https://www.magd.ox.ac.uk/wp-content/uploads/2022/02/Magdalen-Main-Site-July-2021.pdf">College site plan (2021)</a> · <a href="https://www.magd.ox.ac.uk/wp-content/uploads/2022/09/Magdalen-Maps.pdf">College grounds and walks</a> · <a href="https://www.openstreetmap.org/copyright">OpenStreetMap credits</a></p>
+    </div></div>
+  </section>
+  <section id="may" aria-labelledby="may-title">
+    <h2 id="may-title">May Morning on High Street</h2>
+    <div class="event-layout">{{MAYFIG}}<div class="text"><h3>Six o’clock on 1 May</h3>
+      <p>The college choir sings from the top of the Great Tower. Down below, people gather along High Street to listen. <a href="https://www.magd.ox.ac.uk/news/a-45-year-dream-comes-true/">Magdalen’s account of May Morning</a></p>
+      <p>Select the Great Tower in the 3D map to join the gathering. Sound starts muted. Turn it on for an original, synthesised wordless choir. Leaving the event returns you to your previous season and camera.</p>
+    </div></div>
+    <div class="phone-layout">{{PHONEFIG}}<div class="text"><h3>Through a phone screen</h3>
+      <p>Drag with one finger to turn the model. Pinch to change the scale. In Photo mode, <strong>Show controls</strong> in the upper left brings the map controls back.</p>
+      <p class="small">Captured and tested with touch emulation at 390 × 844 CSS pixels. Physical phones were untested.</p>
+    </div></div>
+    <details><summary>Capture and map checks</summary>
+      <p>These images come from the standalone fourteen-neighbourhood edition, version {{VERSION}}, with only Magdalen visible. All four seasonal frames share the camera position, lens, zoom, simulation time and weather settings. The snow and night views use the same camera again.</p>
+      <p>The model ran offline in Chrome {{BROWSER}}. The check covered the seasonal frames, entering and leaving May Morning, its sound control, and portrait drag, pinch and control restoration.</p>
+      <p>The mapped bridge axis measures {{BRIDGE}} metres. At {{SAMPLES}} sampled positions along the punt route, the hull stayed clear of the banks and bridge piers. {{BENEATH}} of those positions were beneath the bridge deck.</p>
+      <p>The college gives the Great Tower’s height as 144 feet (about 44 metres). Four gilded vanes crown its pinnacles. For a closer look at the masonry and bridge design, see the <a href="https://www.magd.ox.ac.uk/news/raising-the-standard-the-restoration-of-the-great-towers-weather-vanes/">tower restoration photographs</a>, the <a href="https://www.magd.ox.ac.uk/news/magdalen-chapels-west-door-restoration-earns-dual-commendations/">chapel’s west door</a> and T. W. M. Jaine’s <a href="https://www.oxoniensia.org/volumes/1971/jaine.pdf">history of Magdalen Bridge</a>.</p>
+    </details>
+  </section>
+</main>
+<footer class="wrap"><p>Oxford in Pockets · Magdalen College</p><p>Map data <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a> · Miniature-city inspiration from <a href="https://april-zhu.com/pocketcity">April Zhu’s Pocket City</a></p></footer>
+<dialog aria-labelledby="dialog-title" aria-describedby="dialog-caption">
+  <div class="dialog-top"><h2 id="dialog-title"></h2><div class="dialog-actions">
+  <button type="button" id="previous" aria-label="Previous image">&#8592;</button><button type="button" id="next" aria-label="Next image">&#8594;</button><button type="button" id="close" autofocus>Close</button></div></div>
+  <div class="large-frame"><img id="large" alt=""></div><p id="dialog-caption"></p>
+</dialog>
+<script>
+const gallery=Array.from(document.querySelectorAll('button.zoom'));
+const dialog=document.querySelector('dialog');
+const large=document.getElementById('large');
+let current=0;
+function show(index){
+  current=(index+gallery.length)%gallery.length;
+  const item=gallery[current],picture=item.querySelector('img'),caption=item.parentElement.querySelector('figcaption');
+  large.src=picture.currentSrc||picture.src;
+  large.alt=picture.alt;
+  document.getElementById('dialog-title').textContent=caption.querySelector('strong').textContent;
+  document.getElementById('dialog-caption').textContent=caption.querySelector('span').textContent;
+}
+gallery.forEach((button,index)=>button.addEventListener('click',()=>{
+  show(index);dialog.showModal();document.getElementById('close').focus();
+}));
+document.getElementById('previous').addEventListener('click',()=>show(current-1));
+document.getElementById('next').addEventListener('click',()=>show(current+1));
+document.getElementById('close').addEventListener('click',()=>dialog.close());
+dialog.addEventListener('keydown',event=>{
+  if(event.key!=='ArrowLeft'&&event.key!=='ArrowRight')return;
+  event.preventDefault();show(current+(event.key==='ArrowLeft'?-1:1));
+});
+dialog.addEventListener('click',event=>{
+  if(event.target!==dialog)return;
+  const b=dialog.getBoundingClientRect();
+  if(event.clientX<b.left||event.clientX>b.right||event.clientY<b.top||event.clientY>b.bottom)dialog.close();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,602 @@
+{
+  "edition": "8.1.0",
+  "sha256": "2b1c40d5e9588dc8e58eb7bd4ef5e93e614d5c71d50d199c329b6edfc10444b7",
+  "browser": "157.0.8103.80",
+  "sheets": {
+    "spring": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 0,
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 6.25,
+      "solarHour": 14.10580357142856,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "bridge": {
+      "camera": {
+        "x": 50.68907747998331,
+        "z": 64.56867634396161,
+        "y": 5.127046949955129,
+        "az": -13.000009765625004,
+        "alt": 20.999998709593104,
+        "span": 166.3219053838815,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        -57.82468227897898,
+        190.2984223109636,
+        534.5930432690745
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 0,
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 6.5,
+      "solarHour": 14.108035714285702,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "bridge-east": {
+      "camera": {
+        "x": 14.85110938309218,
+        "z": 94.70068977987671,
+        "y": 5.0679490820358435,
+        "az": 82.99999877929689,
+        "alt": 19.00000041190582,
+        "span": 172.95984491866966,
+        "lens": 23.06794908203585
+      },
+      "eye": [
+        520.446609669547,
+        180.46583474900171,
+        156.7800222112885
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 0,
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 6.75,
+      "solarHour": 14.110267857142844,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "aerial": {
+      "camera": {
+        "x": 7.552290062358518,
+        "z": 17.815049381096827,
+        "y": 2.9360052225291944,
+        "az": 0.000009765625003765876,
+        "alt": 73.00000315139758,
+        "span": 524.0714927488815,
+        "lens": 20.936005222529197
+      },
+      "eye": [
+        7.552379910248605,
+        1727.1514577079568,
+        544.9605109508435
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 0,
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 7,
+      "solarHour": 14.112499999999986,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "may-morning": {
+      "camera": {
+        "x": -27,
+        "z": 20,
+        "y": 15,
+        "az": 18,
+        "alt": 13,
+        "span": 87,
+        "lens": 49
+      },
+      "eye": [
+        11.30126759987148,
+        43.6150746708426,
+        137.87918074506842
+      ],
+      "mode": "event",
+      "scope": "magdalen",
+      "season": 0,
+      "weights": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 39,
+      "solarHour": 14.112499999999986,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": "may",
+      "eventTime": 32,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "summer": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 1,
+      "weights": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 6.25,
+      "solarHour": 14.10580357142856,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "cloister": {
+      "camera": {
+        "x": 1.8,
+        "z": -28.8,
+        "y": 6.85,
+        "az": 40,
+        "alt": 5.2,
+        "span": 19,
+        "lens": 65
+      },
+      "eye": [
+        14.521383418945552,
+        8.651118390880956,
+        -13.639245607703225
+      ],
+      "mode": "cloister",
+      "scope": "magdalen",
+      "season": 1,
+      "weights": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "night": false,
+      "clock": 8.05,
+      "solarHour": 14.121874999999985,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "autumn": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 2,
+      "weights": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "night": false,
+      "clock": 6.25,
+      "solarHour": 14.10580357142856,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "addison": {
+      "camera": {
+        "x": 65.4,
+        "z": -51.4,
+        "y": 3.1,
+        "az": -4,
+        "alt": 6.2,
+        "span": 38,
+        "lens": 59
+      },
+      "eye": [
+        62.29636919909743,
+        7.933418070166482,
+        -7.016011732240635
+      ],
+      "mode": "addison",
+      "scope": "magdalen",
+      "season": 2,
+      "weights": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "night": false,
+      "clock": 8.05,
+      "solarHour": 14.121874999999985,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "winter": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 3,
+      "weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "night": false,
+      "clock": 6.25,
+      "solarHour": 14.10580357142856,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "winter-snow": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 3,
+      "weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "night": false,
+      "clock": 55.75,
+      "solarHour": 14.547767857142745,
+      "atmosphere": {
+        "rain": false,
+        "snow": true,
+        "load": 1,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "after-dark": {
+      "camera": {
+        "x": 20.517437987972286,
+        "z": 50.4411825236665,
+        "y": 5.127046949955129,
+        "az": 8.500009765624998,
+        "alt": 34.073231131468106,
+        "span": 321.27551902095195,
+        "lens": 23.12704694995513
+      },
+      "eye": [
+        142.718440727848,
+        564.3131373591483,
+        868.1062309958954
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 3,
+      "weights": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "night": true,
+      "clock": 122.5,
+      "solarHour": 22.604464285714286,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 1600,
+        "height": 900
+      },
+      "pixels": [
+        2400,
+        1350
+      ]
+    },
+    "portrait": {
+      "camera": {
+        "x": -8.807672314684325,
+        "z": 21.819902811159807,
+        "y": 6,
+        "az": 11.52,
+        "alt": 32.44,
+        "span": 169.47272727272727,
+        "lens": 24
+      },
+      "eye": [
+        58.38372419180489,
+        219.8440269558558,
+        351.4870990827411
+      ],
+      "mode": "overview",
+      "scope": "magdalen",
+      "season": 2,
+      "weights": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "night": false,
+      "clock": 6.25,
+      "solarHour": 14.10580357142856,
+      "atmosphere": {
+        "rain": false,
+        "snow": false,
+        "load": 0,
+        "shafts": true
+      },
+      "event": false,
+      "eventTime": 0,
+      "audio": false,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pixels": [
+        780,
+        1688
+      ]
+    }
+  },
+  "checks": {
+    "mayRestoresViewAndDailyState": true,
+    "audioStartsMutedAndEndsMuted": true,
+    "identicalCameraWeatherAndSolarHour": true,
+    "phoneDragPinchAndRestore": true
+  },
+  "errors": [],
+  "external": [],
+  "physicalPhones": 0,
+  "passed": true
+}

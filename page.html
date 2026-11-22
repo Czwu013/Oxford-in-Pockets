@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f2e9" />
+    <title>Oxford in Pockets · Fourteen neighbourhoods</title>
+    <style>
+      /*POCKET_STYLE*/
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <span class="seal" aria-hidden="true">O</span>
+        <div>
+          <h1 data-word="口袋牛津">口袋牛津</h1>
+          <i>Oxford in Pockets</i>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="collection" data-word="城市街景集">城市街景集</span>
+        <button id="photo-mode" type="button" class="photo-control" data-aria="照片模式" aria-label="Photo mode">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6.5h3.3l1.8-2.7h5.8l1.8 2.7H20a1.9 1.9 0 0 1 1.9 1.9v10a1.9 1.9 0 0 1-1.9 1.9H4a1.9 1.9 0 0 1-1.9-1.9v-10A1.9 1.9 0 0 1 4 6.5Z"/>
+            <circle cx="12" cy="13" r="4.2"/>
+          </svg>
+          <span data-word="照片模式">Photo mode</span>
+        </button>
+        <button
+          id="lang"
+          type="button"
+          class="language-toggle"
+          aria-haspopup="dialog"
+          aria-controls="languages"
+        >
+          中 / EN</button
+        ><button
+          id="info"
+          class="round"
+          aria-label="操作与地图来源"
+          data-aria="操作与地图来源"
+          title="操作与地图来源"
+        >
+          i
+        </button>
+      </div>
+    </header>
+    <button id="restore-ui" type="button" class="photo-control">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5-5 5 5 5M4 10h10a5 5 0 0 1 0 10h-2"/></svg>
+      <span data-word="恢复界面">Show controls</span>
+    </button>
+    <main id="stage">
+      <canvas
+        id="view"
+        tabindex="0"
+        aria-label="牛津立体街景。拖动旋转，滚轮或双指缩放，可点选地标。"
+        data-aria="牛津立体街景。拖动旋转，滚轮或双指缩放，可点选地标。"
+      ></canvas>
+      <div id="marks"></div>
+      <button id="credit" aria-label="地图署名与资料" data-aria="地图署名与资料">
+        © OpenStreetMap contributors
+      </button>
+      <div id="compass" aria-hidden="true"><b>N</b><i></i></div>
+      <div id="scale" aria-hidden="true"><span></span><small></small></div>
+      <div id="loading" role="status">
+        <div class="spin"></div>
+        <span>Oxford in Pockets · Loading…</span>
+      </div>
+    </main>
+    <section id="caption" aria-live="polite">
+      <i id="place-en">Central Oxford</i>
+      <h2 id="place-name">Central Oxford</h2>
+      <p id="place-desc">Choose a coloured neighbourhood to explore.</p>
+    </section>
+    <div id="scope" role="group" data-aria="显示范围" aria-label="显示范围" hidden>
+      <button type="button" data-scope="map" data-word="完整地图" aria-pressed="true">完整地图</button>
+      <button type="button" data-scope="pocket" data-word="只看此区" aria-pressed="false">只看此区</button>
+    </div>
+    <div id="camera-tools">
+      <button id="zin" class="round" aria-label="放大" data-aria="放大">＋</button
+      ><button id="zout" class="round" aria-label="缩小" data-aria="缩小">−</button>
+    </div>
+    <nav id="actions" aria-label="地点机位与活动" data-aria="地点机位与活动" hidden></nav>
+    <footer>
+      <div class="nav-row">
+        <button id="back" class="city-back" aria-label="回到全城" data-aria="回到全城">
+          <svg viewBox="0 0 22 22" aria-hidden="true">
+            <path d="m2 6 6-3 6 3 6-3v13l-6 3-6-3-6 3Zm6-3v13m6-10v13" /></svg
+          ><span data-word="全城">全城</span></button
+        ><span class="divider"></span>
+        <div id="pockets" role="group" aria-label="切换地点" data-aria="切换地点"></div>
+        <select id="place-menu" aria-label="Choose a neighbourhood" data-aria="选择街区"><option value="city">Choose a neighbourhood</option></select>
+      </div>
+      <div class="season-row">
+        <div id="seasons" role="group" aria-label="四季" data-aria="四季">
+          <button data-season="0" data-word="春" aria-label="春季" data-aria="春季">春</button
+          ><button data-season="1" data-word="夏" aria-label="夏季" data-aria="夏季">夏</button
+          ><button data-season="2" data-word="秋" aria-label="秋季" data-aria="秋季">秋</button
+          ><button data-season="3" data-word="冬" aria-label="冬季" data-aria="冬季">冬</button>
+        </div>
+        <span class="divider"></span>
+        <button id="time-of-day" type="button" aria-label="切换到夜景">
+          <svg viewBox="0 0 22 22" aria-hidden="true">
+            <path class="moon" d="M17.9 14.4A7.4 7.4 0 0 1 8.2 4.3 8 8 0 1 0 17.9 14.4Z" />
+            <g class="sun">
+              <circle cx="11" cy="11" r="4" />
+              <path d="M11 1v3m0 14v3M1 11h3m14 0h3M4 4l2 2m10 10 2 2M4 18l2-2M16 6l2-2" />
+            </g></svg
+          ><span>夜景</span>
+        </button>
+        <button id="weather" type="button" aria-expanded="false" aria-controls="weather-panel">
+          <svg viewBox="0 0 22 22" aria-hidden="true">
+            <circle cx="11" cy="11" r="4" />
+            <path d="M11 1v3m0 14v3M1 11h3m14 0h3M4 4l2 2m10 10 2 2M4 18l2-2M16 6l2-2" /></svg
+          ><span data-word="天气">天气</span>
+        </button>
+      </div>
+    </footer>
+    <aside id="weather-panel" class="sheet" hidden>
+      <h3 data-word="天气与四季">天气与四季</h3>
+      <button id="wet"><b class="regular" data-word="雨后石板">雨后石板</b><span></span></button
+      ><button id="snow"><b class="regular" data-word="降雪与积雪">降雪与积雪</b><span></span></button
+      ><button id="shafts"><b class="regular" data-word="光束与光晕">光束与光晕</b><span></span></button
+      ><button id="auto"><b class="regular" data-word="自动轮换四季">自动轮换四季</b><span></span></button
+      ><button class="dismiss" data-word="收起">收起</button>
+    </aside>
+    <dialog id="sources">
+      <form method="dialog">
+        <button aria-label="关闭" data-aria="关闭" class="x">×</button><i>Oxford in Pockets</i>
+        <h2 data-word="操作与地图来源">操作与地图来源</h2>
+        <p data-copy="help"></p>
+        <p data-copy="life"></p>
+        <p data-copy="estimates"></p>
+        <p data-copy="credits"></p>
+        <p class="source-links">
+          <a href="https://polyhaven.com/license" target="_blank" rel="noopener">Poly Haven · CC0</a>
+          <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener">© Environment Agency 2022 · Open Government Licence v3.0</a>
+        </p>
+        <p>
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener"
+            >© OpenStreetMap contributors · ODbL</a
+          >
+        </p>
+        <p class="source-links">
+          <a href="https://www.new.ox.ac.uk/buildings-gallery" target="_blank" rel="noopener" data-word="新学院建筑图集">新学院建筑图集</a>
+          <a href="https://www.merton.ox.ac.uk/about/history-merton" target="_blank" rel="noopener" data-word="默顿学院建筑史">默顿学院建筑史</a>
+          <a
+            href="https://www.ashmolean.org/plan-your-visit"
+            target="_blank"
+            rel="noopener"
+            data-word="阿什莫林博物馆"
+            >阿什莫林博物馆</a
+          >
+          <a
+            href="https://www.oxfordtownhall.co.uk/about/history/"
+            target="_blank"
+            rel="noopener"
+            data-word="牛津市政厅"
+            >牛津市政厅</a
+          >
+          <a
+            href="https://www.balliol.ox.ac.uk/about-balliol/buildings-and-gardens" target="_blank" rel="noopener" data-word="贝利奥尔学院建筑">贝利奥尔学院建筑</a>
+          <a href="https://www.trinity.ox.ac.uk/sites/default/files/inline-files/Trinity_welcome_brochure_UG_2026_online_v3.pdf" target="_blank" rel="noopener" data-word="三一学院地图">三一学院地图</a>
+          <a href="https://www.queens.ox.ac.uk/visiting-the-college/college-map/" target="_blank" rel="noopener" data-word="皇后学院地图">The Queen’s College map</a>
+          <a href="https://www.univ.ox.ac.uk/about/college-buildings/" target="_blank" rel="noopener" data-word="大学学院建筑">University College buildings</a>
+          <a href="https://visit.bodleian.ox.ac.uk/plan-your-visit/how-to-get-here"
+            target="_blank"
+            rel="noopener"
+            data-word="博德利图书馆"
+            >博德利图书馆</a
+          >
+          <a
+            href="https://oxford-coveredmarket.co.uk/home/marketimprovements/"
+            target="_blank"
+            rel="noopener"
+            data-word="市场平面"
+            >市场平面</a
+          >
+          <a
+            href="https://www.chch.ox.ac.uk/visit/things-to-see"
+            target="_blank"
+            rel="noopener"
+            data-word="基督堂"
+            >基督堂</a
+          >
+          <a
+            href="https://www.magd.ox.ac.uk/visiting-magdalen-college/"
+            target="_blank"
+            rel="noopener"
+            data-word="莫德林学院"
+            >莫德林学院</a
+          >
+          <a
+            href="https://oumnh.ox.ac.uk/learn-swifts-in-the-tower"
+            target="_blank"
+            rel="noopener"
+            data-word="雨燕研究"
+            >雨燕研究</a
+          >
+          <a
+            href="https://historicengland.org.uk/listing/the-list/list-entry/1007730"
+            target="_blank"
+            rel="noopener"
+            data-word="城堡与土丘"
+            >城堡与土丘</a
+          >
+        </p>
+      </form>
+    </dialog>
+    <dialog id="languages" aria-labelledby="language-heading">
+      <h2 id="language-heading">
+        <span lang="zh-CN">选择语言</span><span lang="en">Choose a language</span>
+      </h2>
+      <div class="language-options">
+        <button type="button" lang="zh-CN" data-lang="zh">中文</button
+        ><button type="button" lang="en" data-lang="en">English</button>
+      </div>
+    </dialog>
+    <div id="notice" class="sr" role="status"></div>
+    <script>
+      /*POCKET_JS*/
+    </script>
+  </body>
+</html>
