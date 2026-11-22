@@ -1,14 +1,32 @@
 # Oxford in Pockets
 
-[中文说明](README.zh-CN.md) · [Magdalen through the seasons](docs/magdalen-gallery.html) · [Full city panorama](docs/oxford-panorama.jpg)
+**An illustrated 3D Oxford you can explore offline. Four seasons, fourteen neighbourhoods, one HTML file.**
 
-A miniature Oxford you can explore in a browser. Start above the city, choose a coloured neighbourhood, then follow its streets at walking height. Trees, people, daylight and weather keep their place as you move between the full map and an individual pocket.
+[Download ZIP](https://github.com/Czwu013/Oxford-in-Pockets/archive/refs/heads/main.zip) · [Open the map](#open-the-map) · [中文说明](README.zh-CN.md) · [Labelled city panorama](docs/oxford-labelled.jpg)
 
-![Fourteen illustrated neighbourhoods across Oxford](docs/oxford-panorama.jpg)
+![Fourteen illustrated neighbourhoods across central Oxford](docs/oxford-panorama.jpg)
+
+*Central Oxford from above, from the Castle to Magdalen Bridge.*
+
+<!-- Optional: add a “Watch the trailer” link here once the public video or X post URL is available. -->
+
+## It started with a view from Magdalen Bridge
+
+I wanted to see how Oxford changes through the year without moving the camera: new leaves along the Cherwell in spring, deep green canopies in summer, copper foliage in autumn, and bare branches that open up the view in winter. That first view grew into fourteen small neighbourhoods you can explore in a browser.
+
+[![Magdalen College and the Great Tower from the same viewpoint in all four seasons](docs/magdalen-four-seasons.jpg)](docs/magdalen-four-seasons.jpg)
+
+*Same viewpoint, four seasons. [More views in the Magdalen gallery](docs/magdalen-gallery.html). Download the repository to open the gallery in your browser.*
+
+## From the skyline to the pavement
+
+Start above the city, then pick a neighbourhood to see it on its own. Follow the mapped High Street crossing between The Queen’s College and University College, or take the Broad Street walk between Balliol and Trinity. Look up near the Museum of Natural History for nesting swifts in spring and summer. At Magdalen’s Great Tower, a May Morning scene plays an original synthesised choir.
+
+The street layout and building outlines follow OpenStreetMap. College plans and photographs informed the landmarks; heights and details without reliable measurements are artistic estimates. The [architectural sources](SOURCES.md) and [asset credits](CREDITS.md) distinguish mapped details from those estimates.
 
 ## Open the map
 
-Download the repository, extract it and open `docs/index.html` in a browser with WebGL 2. On GitHub, the file view displays the HTML source. A GitHub Pages deployment serves the interactive map. The map, geometry, textures and synthesised audio are embedded in the file and work offline. The interface opens in English. Choose **中 / EN** to switch to Chinese. The browser remembers your choice when local storage is available.
+[Download the ZIP](https://github.com/Czwu013/Oxford-in-Pockets/archive/refs/heads/main.zip), extract it and open `docs/index.html` in a browser with WebGL 2. On GitHub, the file view displays the HTML source. For an online version, deploy the `docs/` folder with GitHub Pages. The map, geometry, textures and synthesised audio are embedded in the file and work offline. The interface opens in English. Choose **中 / EN** to switch to Chinese. The browser remembers your choice when local storage is available.
 
 - On a computer, drag to orbit, scroll to zoom and Shift-drag or right-drag to pan. On a touch screen, drag with one finger and pinch or pan with two.
 - For a clear view, choose the camera in the top right. **Photo mode** fills the window and lets you keep framing the scene as it runs. Choose **Show controls** in the top left or press **Esc** to return.
@@ -68,11 +86,11 @@ python scripts/verify-quarters-plan.py --out verification/quarters-plan.json
 node scripts/verify-fourteen.cjs dist/index.html verification/browser
 ```
 
-The browser check needs Playwright and Chromium. Set `POCKET_PLAYWRIGHT` and `POCKET_BROWSER` to use existing installations. The source archive includes the geometry and browser reports from the release build. Mobile checks used touch emulation.
+The browser check needs Playwright and Chromium. Set `POCKET_PLAYWRIGHT` and `POCKET_BROWSER` to use existing installations. The [verification folder](verification/) includes the geometry and browser reports from the release build. Mobile checks used touch emulation.
 
 ## Magdalen gallery
 
-Open [the English image gallery](docs/magdalen-gallery.html) after downloading the repository, or view it on the published Pages site. It includes thirteen images, including model views and a measured site-plan comparison, a [3000 × 2000 four-season print](docs/magdalen-four-seasons.jpg), and [instructions for editing the gallery](tools/gallery/README.md). [Labelled city panorama](docs/oxford-labelled.jpg)
+Open [the English image gallery](docs/magdalen-gallery.html) after downloading the repository, or view it on GitHub Pages if you have deployed the site. It includes thirteen images, including model views and a measured site-plan comparison, a [3000 × 2000 four-season print](docs/magdalen-four-seasons.jpg), and [instructions for editing the gallery](tools/gallery/README.md). [Labelled city panorama](docs/oxford-labelled.jpg)
 
 ## Credits and release terms
 
